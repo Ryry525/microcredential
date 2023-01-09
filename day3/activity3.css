@@ -1,0 +1,52 @@
+.dog, .mountain, .stand {width: 95%; height: 95%;
+margin: 4em;
+}
+/* IMAGE 1 */
+.figure, .figure2, .figure3{
+    position: relative;
+}
+.dog{
+    filter:  invert(90%);
+
+}
+.heading{
+    font-size: 40px;
+    font-weight: bolder;
+    color: 
+}
+.dogPara{
+    position: absolute;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-spacing: 2em;
+    top: 70%;
+    left: 15%;  
+    color: whitesmoke;
+    font-size: 25px;
+    background-color: rgb(30, 28, 28);
+    padding: 1em;
+    opacity: 0.8;
+}   
+/* IMAGE 2 */
+.mountain{
+    filter: blur(2px);
+}
+.mountainPara{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    color: black;
+    font-size: 20px;
+    background-color: rgb(221, 221, 221);
+    opacity: 0.8;
+    padding: 2px;
+    box-shadow: 5px 5px 5px 1px rgb(255, 255, 255);
+}
+.mountHeading{
+    color: rgb(230, 26, 26);
+    font-size: 30px;
+    font-weight: bolder;
+}
+.body{
+    display: flex;
+}
